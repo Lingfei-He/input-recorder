@@ -1,2 +1,5 @@
 .simple-tests
 .vscode
+input_recorder.egg-info
+build
+.pytest_cache
