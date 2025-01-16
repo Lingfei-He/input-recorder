@@ -1,0 +1,6 @@
+README.md
+setup.py
+input_recorder.egg-info/PKG-INFO
+input_recorder.egg-info/SOURCES.txt
+input_recorder.egg-info/dependency_links.txt
+input_recorder.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: input-recorder
+Version: 1.0.0
+Summary: A simple python tool to record and replay user's input operations.
+Home-page: https://github.com/Lingfei-He/input-recorder
+Author: Lingfei, He
+Author-email: lingfei@tju.edu.cn
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
