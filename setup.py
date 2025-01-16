@@ -18,4 +18,5 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],  # 分类标签
+    include_package_data=True
 )

@@ -1,0 +1,2 @@
+include input_recorder/static/*
+exclude test/*
