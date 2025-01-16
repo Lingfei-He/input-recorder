@@ -9,7 +9,16 @@ def get_config_path():
 def print_config_path():
     print(f'The config file is located in {get_config_path()}')
 
+def load_json(path):
+    with open(path)as f:
+        return json.load(f)
+
 def load_config():
-    with open(get_config_path())as f:
-        config = json.load(f)
-        print(config)
+    return load_json(get_config_path())
+    
+def edit_json(path, k, newV, check_exist=True):
+    data = load_json(path)
+    if check_exist and k not in newV:
+        raise IndexError(f'There is no key named "{k}" in json data ({path}).')
+    else:
+        data[data]

@@ -10,5 +10,5 @@ A simple python tool to record and replay user's input operations.
 
 > [!CAUTION]
 >
-> You need to copy *config.json* to an other location and replace then after you upgraded or reinstalled this package. Otherwise, the new installation will overwrite the original configuration.
+> You need to copy *input_recorder/static/config.json* to an other location and replace then after you upgraded or reinstalled this package. Otherwise, the new installation will overwrite the original configuration edited by users.
 
